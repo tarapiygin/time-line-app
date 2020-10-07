@@ -1,0 +1,84 @@
+.body {
+  width: 100%;
+}
+
+.time-line {
+  height: 100vh;
+  position: fixed;
+  width: 10px;
+  top: 0;
+  left: 10vw;
+  background-color: #52e0f1;
+}
+
+.timestamp {
+  background-color: #f16352;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 5px;
+  left: -19px;
+  border-radius: 100px;
+}
+
+.time-events {
+  width: 85vw;
+  margin-left: 10vw;
+}
+
+.time-event {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  box-sizing: border-box;
+}
+
+.time-event:nth-child(n+2) {
+  margin-top: 20px;
+}
+
+.time-event:last-child {
+  margin-bottom: 100px;
+}
+
+.time-event_content {
+  padding: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.time-event_date {
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.time-event_audio, .time-event_video {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.time-event_location {
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid black;
+  min-width: 100px;
+  padding: 5px 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 710px) {
+  .container {
+    position: relative;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+}
