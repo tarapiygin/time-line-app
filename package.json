@@ -6,8 +6,8 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
-    "test": "jest --testPathPattern=./test/",
-    "coverage": "jest --testPathPattern=./test/ --coverage",
+    "test": "jest --testPathPattern=./__tests__/",
+    "coverage": "jest --testPathPattern=./__tests__/ --coverage",
     "e2e": "jest --testPathPattern=./e2e/"
   },
   "repository": {
